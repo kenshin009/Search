@@ -1,0 +1,80 @@
+
+            
+            p{
+                margin: 0;
+                position: absolute;
+                top: 35%;
+                left: 48%;
+                -ms-transform: translate(-35%, -45%);
+                transform: translate(-35%, -45%);
+                font-size: 56px;
+                background-color:transparent
+            }    
+                 
+           
+            
+
+         
+            .sub{
+                margin: 0;
+                position: absolute;
+                top: 60%;
+                left: 45%;
+                -ms-transform: translate(-45%, -60%);
+                transform: translate(-45%, -60%);
+                background-color:whitesmoke;
+                height: 28px;
+                width: 125px;
+                padding: 5px;
+                border: 1px none transparent;
+            }
+            .sub:hover{
+                border: groove;
+                cursor: pointer;
+            }
+            .sub1{
+                margin: 0;
+                position: absolute;
+                top: 60%;
+                left: 55%;
+                -ms-transform: translate(-55%, -60%);
+                transform: translate(-55%, -60%);
+                background-color:whitesmoke;
+                height: 28px;
+                width: 125px;
+                border: 1px none transparent;
+
+            }
+            .sub1:hover{
+                border: groove;
+                cursor: pointer;
+            }
+
+            .s{
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                width: 400px;
+                height: 50px;
+                border-radius: 50px;
+                padding-left: 20px;
+                border: 2px solid black;
+            }
+          
+            #adv{
+                text-align: right;
+                color: blue;
+                font-weight: bold;
+            }
+            #img{
+               
+                font-weight: bold;
+                color: blue;
+                text-align: right;
+            }
+            
+            
+            
