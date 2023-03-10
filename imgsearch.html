@@ -6,20 +6,32 @@
         <meta content="origin" name="referrer"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><link href="/manifest?pwa=webhp" crossorigin="use-credentials" rel="manifest">
 
         <link rel="stylesheet"  href="index.css">
+        <style>
+            #search p {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        </style>
     </head>
     <body>
     <form action="http://image.google.com/images">
-        <div id="img">
-            <a href="index.html">Google Search</a>
+        <div class="links">
+            <div id="link1">
+                <a href="index.html">Google Search</a>
+            </div>
+            <div id="link2">
+                <a href="advsearch.html">Google Advanced Search</a>
+            </div>
         </div>
-        <div id="adv">
-            <a href="advsearch.html">Google Advanced Search</a>
-        </div>
-        <div><p>Google<sub><samall>image</samall></sub></p></div>
-        <div><input class="s" type="text" name="q" placeholder="search.."></div>
-        <div>
-            <input type="submit" name="btnK" class="sub" value="Image Search">
-              
+       
+        <div class="container">
+            <div id="search">
+                <h2>Google</h2><p id="small" style="color: white;">images</p>
+                <input type="text" name="q" placeholder='Search...'> 
+            </div>
+            <div id="btns">
+                <input id="search_btn" type="submit" name="btnK" value="Image Search" >   
+            </div>
         </div>
     </form>
     

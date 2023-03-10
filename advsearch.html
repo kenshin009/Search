@@ -2,48 +2,39 @@
 <html lang="eng">
     <head>
         <title>Google Advanced Search</title>
-        <style>
-            
-            .five{
-                width: 50%;
-                height: 20px;
-                font-size: 15px;
-                
-            }
-            #top{
-                font-size: 24px;
-            }
-            .adv{
-                color:white; background-color:#4c8bf5; 
-                height: 30px;border: 1px #4c8bf5 outset; margin-left: 200px
-            }
-            .adv:hover{
-                cursor: pointer;
-            }
-            a{
-                float: right;
-            }
-        
-        </style>
-
+        <link rel="stylesheet"  href="index.css">
+    
     </head>
     <body>
+        <div id="headings">
+            <h2 id="g_txt">Google</h2><br>
+            <h3 id="adv_txt">Advanced Search</h3>
+        </div>
         
-        <h1>Google</h1><br>
-        <h1 style="margin-left: 20px; font-weight: bold;">Advance Search</h1>
-        <a href="index.html">Google Search</a><br>
-        <a href="imgsearch.html">Google Image Search</a>
-        <hr>
-        <p id="top">Find pages with...</p>
-        <form action="https://www.google.com/search" method="get">
+        <div class="links">
+            <div id="link1">
+                <a href="index.html">Google Search</a><br>
+            </div>
+            <div id="link2">
+                 <a href="imgsearch.html">Google Image Search</a>
+            </div>
            
-            <pre>
-            <p>all these words:           <input type="text" name="as_q" class="five"></p>
-            <p>this exact word or phrase: <input type="text" name="as_epq" class="five"></p>
-            <p>any of these words:        <input type="text" name="as_oq" class="five"></p>
-            <p>none of these words:       <input type="text" name="as_eq" class="five"></p>                              
-            </pre>
-            <input type="submit" name="adv" id="btn" class="adv" value="Advance Search" >
-        </form>/
+        </div>
+        
+        <hr>
+        <div class="input-groups">
+            <p id="top">Find pages with...</p>
+            <form id="form" action="https://www.google.com/search" method="get">
+            
+                <pre>
+                <p>all these words:           <input type="text" name="as_q" > </p>
+                <p>this exact word or phrase: <input type="text" name="as_epq" ></p>
+                <p>any of these words:        <input type="text" name="as_oq" ></p>
+                <p>none of these words:       <input type="text" name="as_eq" ></p>                              
+                </pre>
+                <button type="submit" name="adv" id="adv_btn">Advanced Search</button>
+            </form>
+        </div>
+        
     </body>
-</html
+</html>
