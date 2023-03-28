@@ -1,0 +1,162 @@
+
+            
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    color: white;
+}
+
+#btns {
+    text-align: center;   
+}
+
+/* Google Search button */
+#search_btn {
+    color: white;
+    background-color: #353232;
+    border: 0.1px solid #353232;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 1rem;
+}
+
+#search_btn:hover {
+    cursor: pointer;
+    border: 0.1px solid white;
+}
+
+/* Feeling Lucky button */
+#lucky_btn {
+    color: white;
+    background-color: #353232;
+    border: 0.1px solid #353232;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#lucky_btn:hover {
+    cursor: pointer;
+    border: 0.1px solid white;
+}
+
+/* To center vertically and horizontally */
+.container {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* Google text */
+#search {
+    margin-bottom: 2rem;
+}
+
+#search h2{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(214, 220, 230);
+    margin-bottom: 1rem;
+}
+
+
+
+#search input{
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding-left: 1rem;
+    width: 25rem;
+    height: 2rem;
+    color: white;
+}
+
+#search input:hover {
+    background-color: #353232;
+}
+
+/* Link2*/
+#link2 {
+    text-align: right;
+}  
+#link2 a{
+    color: white;
+    text-decoration: none;
+}
+#link2 a:hover {
+    text-decoration: underline;
+}
+
+/* Link1 */
+#link1 {
+    text-align: right;
+    margin-bottom: 5px;
+}
+#link1 a{
+    color: white;
+    text-decoration: none;
+}
+#link1 a:hover {
+    text-decoration: underline;
+}
+            
+/* All Links */
+.links {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}        
+            
+
+/* Advanced Search Page */
+
+#headings{
+    font-size: 1rem;
+    color: rgb(214, 220, 230);
+}
+
+#g_txt {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#adv_txt {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    color: rgb(233, 124, 124);
+}
+
+.input-groups input {
+
+    font-size: 15px;
+    border: 0.5px solid rgb(180, 175, 175);
+    padding-left: 1rem;
+    width: 25rem;
+    height: 2rem;
+
+}
+
+.input-groups input:focus {
+    border: 3px solid #1d76e9;
+}
+
+.input-groups {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+#top{
+    font-size: 24px;
+}
+#adv_btn{
+    background-color:#4c8bf5; 
+    height: 2rem;
+    padding: 5px;
+    border: 1px #4c8bf5 outset; 
+    border-radius: 5px;
+    margin-left: 13rem;
+}
+#adv_btn:hover{
+    cursor: pointer;
+    border: 1px white solid;
+}
